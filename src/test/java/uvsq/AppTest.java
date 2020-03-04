@@ -17,4 +17,14 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    @Test 
+    public void methodeMetierTest() {
+    	
+    	UneClasseMetier u = new UneClasseMetier();
+    	u.uneMethodeMetier();
+    	
+    }
+
+
 }
